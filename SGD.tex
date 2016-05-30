@@ -74,7 +74,7 @@
 
 
 \begin{center}
-{\Large Reviews of stochastic gradient descent variants}\\
+{\Large{ \textbf{Reviews of Stochastic Gradient Descent Variants and its Asychonous Version}}}\\
 \end{center}
 
 \vspace{0.2 cm}
@@ -82,40 +82,47 @@
 
 % \subsection*{Exercises for Section 1.1: Norm and Inner Product} star means no numbers
 \subsection*{Introduction}
-We firstly give up the least square method of linear regression, and then address linear regression problem based on a general machine learning method. In my opinion, Machine learning algorithm consists of \textbf{model, strategy} and \textbf{optimization}.\\
-\\
-\centerline{Learning algorithm = Model + Strategy + Optimization;}\\
-
-The first thing we should do is to determine what decision function or conditional probability distribution we need to learn and get. For instance, in linear regression we want to learn $h_\theta(x)=\theta x$. This decision function is the model we want to use.
-
-We have the model, but we do not know parameters in it, and next thing we should do is parameter estimation, which means how to construct loss function, and we call this step strategy.
-
-The last step is optimization which means how to solve the loss function.
+In this review, we will introduce several at start-of-art gradient descent optimization algorthims.In full gradient descent optimization, we compute the cost gradient based on the complete training set. In case of very large datasets, using full gradient descent can be quite costly since we are only taking a single step for one pass overIn full gradient descent optimization, we compute the cost gradient based on the complete training set. In case of very large datasets, using full gradient descent can be quite costly since we are only taking a single step for one pass over
 \subsection*{Notation}
+At first we introduce some notations about convex optimization.\\
+\textbf{Convex Function}\\
+A function $f : \mathbb{R}^n \to \mathbb{R}$ is convex, if: $$f(\alpha x + (1-\alpha)y) \le \alpha f(x)+(1-\alpha)f(y),\forall x,y \in \mathbb{R}^n, \forall \alpha \in (0,1)$$
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{convex} % Include the image placeholder.png
+
+\end{center}
+\end{figure}\\
+And it also means (Suppose $f$ is differentiable) $$f(y)\ge f(x)+\nabla f(x)^T(y-x),\forall x,y\in\mathbb{R}^n$$
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{convex1} % Include the image placeholder.png
+
+\end{center}
+\end{figure}\\
+\textbf{Strong Convexity}\\
+A differentiable function $f$ is strongly convex if\\
+$$f(y)\ge f(x)+\nabla f(x)^T(y-x)+\frac{\mu}{2}\rVert y-x \rVert^2,\forall x,y\in\mathbb{R}^n$$\\
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{strong} % Include the image placeholder.png
+
+\end{center}
+\end{figure}\\
+\textbf{Convex Function with Lipschitz Continuous}\\
+Let $\nabla f$ be Lipschitz continuous, ie., there exitst $L \ge 0$ such that $$\rVert  \nabla f(x)- \nabla f(y)\rVert \le L \rVert x-y \rVert, \forall x,y \in \mathbb{R}^n $$
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{convexL}
+\end{center}
+\end{figure}
 \subsection*{Gradient Descent}
+\textbf{Update Rule}\\
+\textbf{Convergence Rate}\\
 \subsection*{Stoastic Gradient Descent}
 \subsection*{Stoastic Average Gradient Descent(SAG)}
 \subsection*{Stoastic Gradient Descent with Predictive Variance Reduction(SVRG)}
-% \bibliographystyle{abbrv}
-% \bibliography{mylib}
-%
-%
-% \begin{thebibliography}{9}
-% \bibitem{latexcompanion}
-% Michel Goossens, Frank Mittelbach, and Alexander Samarin.
-% \textit{The \LaTeX\ Companion}.
-% Addison-Wesley, Reading, Massachusetts, 1993.
-%
-% \bibitem{einstein}
-% Albert Einstein.
-% \textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German)
-% [\textit{On the electrodynamics of moving bodies}].
-% Annalen der Physik, 322(10):891–921, 1905.
-%
-% \bibitem{knuthwebsite}
-% Knuth: Computers and Typesetting,
-% \\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
-% \end{thebibliography}
+
 
 
 

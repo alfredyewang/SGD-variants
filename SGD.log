@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.6)  18 MAY 2016 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.6)  24 MAY 2016 18:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -216,17 +216,8 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
-
- []
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 89.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 89.
@@ -236,22 +227,53 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 89.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+) <convex.png, id=1, 392.46625pt x 265.99374pt>
+File: convex.png Graphic file (type png)
+ <use convex.png>
+Package pdftex.def Info: convex.png used on input line 92.
+(pdftex.def)             Requested size: 140.92792pt x 95.51414pt.
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./SGD.aux) ) 
+<convex1.png, id=2, 1208.515pt x 329.23pt>
+File: convex1.png Graphic file (type png)
+ <use convex1.png>
+Package pdftex.def Info: convex1.png used on input line 99.
+(pdftex.def)             Requested size: 281.85585pt x 76.78128pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--105
+
+ []
+
+<strong.png, id=3, 946.53625pt x 256.96pt>
+File: strong.png Graphic file (type png)
+ <use strong.png>
+Package pdftex.def Info: strong.png used on input line 108.
+(pdftex.def)             Requested size: 281.85585pt x 76.51614pt.
+ <convexL.png, id=4, 874.26625pt x 263.98625pt>
+File: convexL.png Graphic file (type png)
+ <use convexL.png>
+Package pdftex.def Info: convexL.png used on input line 116.
+(pdftex.def)             Requested size: 281.85585pt x 85.1057pt.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./convex.png> <./convex1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+[2 <./strong.png> <./convexL.png>] (./SGD.aux) ) 
 Here is how much of TeX's memory you used:
- 2677 strings out of 493027
- 35137 string characters out of 6134076
- 95021 words of memory out of 5000000
- 6174 multiletter control sequences out of 15000+600000
- 7045 words of font info for 29 fonts, out of 8000000 for 9000
+ 2699 strings out of 493027
+ 35444 string characters out of 6134076
+ 97021 words of memory out of 5000000
+ 6191 multiletter control sequences out of 15000+600000
+ 7352 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,24p,351b,116s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on SGD.pdf (1 page, 68367 bytes).
+ 38i,7n,24p,589b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on SGD.pdf (2 pages, 225926 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
